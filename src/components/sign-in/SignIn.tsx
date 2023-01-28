@@ -8,7 +8,7 @@ function SignIn() {
                 <form action="GET" className="signInForm">
                     <div className="form-header">
                         <h2 className="form-title">Login to your account</h2>
-                        <h3 className="form-subtitle text-small">Securely login to your PiggyVest</h3>
+                        <h3 className="form-subtitle text-small">Securely login to your finteK</h3>
                     </div>
 
                     <div className="form-body">
