@@ -2,4 +2,9 @@
   background-color: #062863;
   width: 100vw;
   height: 100vh;
+
+  background-image: url("./assets/signInPageRound.png"), url("./assets/signInPageJ.png"), url("./assets/signInPageJREd.png"), url("./assets/signInPageL.png");
+  background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 15%, 15%, 15%, 15%;
 }
