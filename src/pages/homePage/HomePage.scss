@@ -1,0 +1,26 @@
+.section1{
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 50px;
+   .imageCont{
+    position: relative;
+     .image{
+       border: 3px solid rgba(0,0,0,0.7);
+       border-radius: 20px;
+       height: 500px;
+       width: 350px;
+       margin: 0 auto;
+      }
+      .image1{
+        background-color: rgb(139, 254, 216);
+        position: absolute;
+        top:35px;
+        left:90px;
+        border-radius: 20px;
+        height: 440px;
+        width: 350px;
+        margin: 0 auto;
+      }
+  }
+
+}

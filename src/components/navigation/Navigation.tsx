@@ -5,10 +5,7 @@ import { Outlet } from "react-router-dom";
 function Navigation() {
     return (
         <>
-            <header>
-                <nav className="navbar">
-                    <a href="#">Fintek App</a>
-                </nav>
+            <header className='navigationbar'>
                 <h1>Navigation coming soon!</h1>
             </header>
             <Outlet />

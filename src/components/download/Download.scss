@@ -1,0 +1,24 @@
+.downlaodBtn{
+  width: 60%;
+  margin: 0 auto;
+  margin-top:20px;
+  // background-color: red;
+  display: flex;
+  justify-content: space-around;
+  gap:20px
+}
+.dwnld{
+  padding: 10px 25px;
+  background-color: white;
+  margin: 0 auto; 
+  color: #0c1825 !important;
+    border: 1px solid #ddd !important;
+    border-radius: 12px !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    font-weight: 500;
+    // width: 53px;
+    white-space: nowrap;
+    height: 53px;
+}
