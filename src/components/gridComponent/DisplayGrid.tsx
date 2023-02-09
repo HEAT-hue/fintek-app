@@ -1,9 +1,9 @@
-import React from "react";
 import "./DisplayGrid.scss";
 
 import { Names } from "./List";
 const newNames = Names.map((name) => {
   const { img, title, description, link } = name;
+  console.log(name);
   return (
     <>
       <div className="savingsCont">

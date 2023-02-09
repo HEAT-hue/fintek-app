@@ -1,7 +1,7 @@
 export const Names = [
   {
     id: 1,
-    img: "./Images/piggy.png",
+    img: require("./Images/piggy.png"),
     title: "Automated Savings",
     description:
       "Build a dedicated savings faster on your terms automatically or manually.",

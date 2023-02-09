@@ -31,7 +31,7 @@
           font-size: 0.8rem;
         }
 
-        input[type] {
+        input[type], select {
           outline: none;
           border: 1px solid #edf2f7;
           border-radius: 5px;
@@ -43,7 +43,7 @@
         }
 
         label,
-        input {
+        input, select {
           display: block;
         }
       }
