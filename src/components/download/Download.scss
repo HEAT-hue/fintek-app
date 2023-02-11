@@ -2,7 +2,7 @@
   width: 60%;
   margin: 0 auto;
   margin-top:20px;
-  // background-color: red;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-around;
   gap:20px
@@ -18,7 +18,12 @@
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     font-weight: 500;
-    // width: 53px;
     white-space: nowrap;
     height: 53px;
 }
+ @media (min-width: 1000px) {
+    .downlaodBtn {
+     margin: 0;
+     margin-top: 30px;
+   }
+ }

@@ -1,23 +1,55 @@
 .BetterwayContainer{
-  width: 90%;
-  height: auto !important;;
-  margin: 0 auto;
+  width: 100%;
   margin-top: 150px;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
   h1 {
-      font-size: 70px;
-      line-height: 72px;
-      font-family: U8-Bold !important;
+      font-size: 55px;
+      line-height: 70px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-weight: 700;
       color: #0c1825;
+      margin: 0px 10px 30px 10px;
       text-align: center;
       margin-bottom: 20px;
+      width: 100%;
     }
     p{
       text-align: center;
-      margin: 0px 50px 40px 50px;
+      margin: 0px 10px 40px 10px;
       font-size: 18px;
+      line-height: 1.6;
+      color: rgba(12, 24, 37, 0.9);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+    .Betterway{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      width: 100%;
+    }
+}
+@media screen and (min-width: 1000px) {
+.BetterwayContainer {
+    margin-left: 0px !important;
+    background-color: white;
+    margin-left: 10px;
+  .Betterway {
+      margin-left: 0%;
+      width: 90%;
+        h1 {
+            font-size: 68px;
+            text-align: start;
+            margin-top: 30px;
+          }
+      p{
+        text-align: start;
+        margin: 10px 0px 50px 0px;
+        font-size: 18px;
+        line-height: 1.7;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    }
+
+}
 }
