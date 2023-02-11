@@ -4,6 +4,7 @@ import BetterWay from "./Better/BetterWay";
 import "./HomePage.scss";
 import { Names } from "./List";
 import "./DisplayGrid.scss";
+import { Footer } from "../../components";
 
 function HomePage() {
   return (
@@ -41,6 +42,8 @@ function HomePage() {
           })}
         </div>
       </section>
+      {/* Footer Component */}
+      <Footer />
     </>
   );
 }
