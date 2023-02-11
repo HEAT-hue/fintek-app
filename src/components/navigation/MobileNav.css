@@ -4,7 +4,7 @@
     display: none;
 }
 .MobileNav {
-  display: block;
+  display: flex;
 }
 
 .Navlinks {
@@ -23,7 +23,7 @@
 }
 /* styling the sign in navlinks */
 .seven {
-  padding: 15px 350px;
+  padding: 15px 130px;
   transition: all 0.4s linear;
 }
 .sevent, .nonpad{
@@ -37,9 +37,17 @@
   margin-left: 40px;
 }
 .whitecolor {
-  padding: 20px 300px;
+  padding: 20px 90px;
   border-radius: 15px;
   transition: all 0.4s linear;
-
 }
+    .MobileNav__icon{
+      position: fixed;
+      z-index: 99;
+      right: 5%;
+      top: 5%;
+    }
+        .MobileNav__icon:hover{
+          cursor: pointer;
+        }
 }
