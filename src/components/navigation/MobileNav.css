@@ -1,0 +1,45 @@
+@media screen and (max-width:1000px) {
+ 
+  .desktopNav{
+    display: none;
+}
+.MobileNav {
+  display: block;
+}
+
+.Navlinks {
+  display: flex;
+    flex-flow: column nowrap !important;
+    align-items: center;
+    position: fixed;
+    gap: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(245, 244, 244);
+    list-style: none;
+    
+}
+/* styling the sign in navlinks */
+.seven {
+  padding: 15px 350px;
+  transition: all 0.4s linear;
+}
+.sevent, .nonpad{
+  margin-left: 20px;
+  transition: all 0.5s linear;
+}
+
+/* styling the create acount navlinks */
+.nonpad{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.whitecolor {
+  padding: 20px 300px;
+  border-radius: 15px;
+  transition: all 0.4s linear;
+
+}
+}

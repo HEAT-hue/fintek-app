@@ -111,6 +111,7 @@ a{
 // ****** STYLING THE THE 4 WAYS TO BUILD LEFT SECTIONS *******
 .grid2{
   display: grid;
+  gap: 20px;
   grid-template-columns: 1fr 1fr;
 }
 // ****** STYLING THE 4 WAYS TO BUILD ... *******
