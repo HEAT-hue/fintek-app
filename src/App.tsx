@@ -12,8 +12,8 @@ function App() {
   return (
     <Routes>
       {/* <Route path="/" element={<Navigation />}></Route> */}
-      <Route path="/Save" element={<Savings />} />
       <Route path="/" element={<SharedLayout />}>
+        <Route path="/Save" element={<Savings />} />
         <Route path="/invest" element={<Invest />} />
         <Route index element={<HomePage />} />
         <Route path="/register" element={<AuthPage />} />
