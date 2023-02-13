@@ -1,5 +1,6 @@
 import NavLinks from "./NavLinks";
 import "./DesktopNav.css";
+
 function DesktopNav() {
   return (
     <div className="desktopNav">

@@ -1,4 +1,5 @@
 import "./Navlinks.css";
+
 function NavLinks() {
   return (
     <ul className="Navlinks">

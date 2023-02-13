@@ -1,13 +1,12 @@
+.navigationbar {
+  max-height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
 
-.navigationbar{
-    max-height: 70px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 20;
-    
-    h1{
-        font-size: 20px;
-    }
+  h1 {
+    font-size: 20px;
+  }
 }

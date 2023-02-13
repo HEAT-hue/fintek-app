@@ -10,6 +10,7 @@ function MobileNav() {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+  
   const OpenIcon = (
     <AiOutlineMenu
       className="MobileNav__icon"
