@@ -24,11 +24,11 @@
 /* styling the sign in navlinks */
 .seven {
   padding: 15px 130px;
-  transition: all 0.4s linear;
+  transition: all 0.1s linear;
 }
 .sevent, .nonpad{
   margin-left: 20px;
-  transition: all 0.5s linear;
+  /* transition: all 0.2s linear; */
 }
 
 /* styling the create acount navlinks */
