@@ -10,22 +10,25 @@ function MobileNav() {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+
   const OpenIcon = (
     <AiOutlineMenu
       className="MobileNav__icon"
       size="30px"
-      color="color"
+      color="black"
       onClick={toggle}
     />
   );
+
   const CloseIcon = (
     <AiOutlineClose
       className="MobileNav__icon"
       size="30px"
-      color="color"
+      color="black"
       onClick={toggle}
     />
   );
+
   return (
     <div className="MobileNav">
       {isOpen ? CloseIcon : OpenIcon}

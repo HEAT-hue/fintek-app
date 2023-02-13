@@ -1,7 +1,12 @@
 import React from "react";
 
-const savings = () => {
-  return <div></div>;
+export const Savings = () => {
+  return (
+    <>
+      <section>
+        <h1>Save Money</h1>
+        <h1>Save Money</h1>
+      </section>
+    </>
+  );
 };
-
-export default savings;

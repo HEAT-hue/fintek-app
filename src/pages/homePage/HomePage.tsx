@@ -4,46 +4,46 @@ import BetterWay from "./Better/BetterWay";
 import "./HomePage.scss";
 import { Names } from "./List";
 import "./DisplayGrid.scss";
-import { Footer } from "../../components";
 
 function HomePage() {
   return (
     <>
-      <section className="section1">
-        <div className="betgrid">
-          <BetterWay></BetterWay>
-        </div>
-        <div className="Overallcon">
-          <div className="margintop">
-            <div className="imageCont">
-              <div className="image">
-                <div className="image1">
-                  <img src={require("./Images/headerImg.png")} alt="" />
+      <main>
+        <section className="section1">
+          <div className="betgrid">
+            <BetterWay></BetterWay>
+          </div>
+          <div className="Overallcon">
+            <div className="margintop">
+              <div className="imageCont">
+                <div className="image">
+                  <div className="image1">
+                    <img src={require("./Images/headerImg.png")} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section className="section2">coming soon</section>
+        </section>
+        <section className="section2">coming soon</section>
 
-      <section className="GridCont">
-        <div className="grid1">
-          <h1>4 ways to build your savings</h1>
-          <p>Earn 5%-15% when you save with any of these PiggyVest plans.</p>
-          <a href="#">
-            <button className="btn">Start Saving</button>
-          </a>
-        </div>
-        <div className="grid2">
-          {Names.map((name) => {
-            const { id } = name;
-            return <NewList key={id} name={name}></NewList>;
-          })}
-        </div>
-      </section>
-      {/* Footer Component */}
-      <Footer />
+        <section className="GridCont">
+          <div className="grid1">
+            <h1>4 ways to build your savings</h1>
+            <p>Earn 5%-15% when you save with any of these PiggyVest plans.</p>
+            <a href="#">
+              <button className="btn">Start Saving</button>
+            </a>
+          </div>
+          <div className="grid2">
+            {Names.map((name) => {
+              const { id } = name;
+              return <NewList key={id} name={name}></NewList>;
+            })}
+          </div>
+        </section>
+        {/* Footer Component */}
+      </main>
     </>
   );
 }
