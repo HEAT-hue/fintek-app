@@ -1,4 +1,4 @@
 export { HomePage } from "./homePage";
 export { AuthPage } from "./authPage";
-export { Invest } from './invest'
-export { Savings } from './savings'
+export { InvestPage } from './investPage';
+export { SavingsPage } from './savingsPage';

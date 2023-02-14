@@ -1,6 +1,4 @@
-import React from "react";
-
-export const Invest = () => {
+const InvestPage = () => {
   return (
     <section>
       <div color="black">
@@ -11,3 +9,5 @@ export const Invest = () => {
     </section>
   );
 };
+
+export { InvestPage }

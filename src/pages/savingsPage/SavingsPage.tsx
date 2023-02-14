@@ -1,6 +1,4 @@
-import React from "react";
-
-export const Savings = () => {
+const SavingsPage = () => {
   return (
     <>
       <section>
@@ -10,3 +8,5 @@ export const Savings = () => {
     </>
   );
 };
+
+export { SavingsPage };

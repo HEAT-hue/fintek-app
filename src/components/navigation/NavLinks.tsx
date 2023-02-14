@@ -31,10 +31,10 @@ function NavLinks() {
       <NavLink to="/Ebook" className="li">
         Ebook
       </NavLink>
-      <NavLink to="/" className="li sevent seven">
+      <NavLink to="/login" className="li sevent seven">
         Sign in
       </NavLink>
-      <NavLink to="/AuthPage" className="li nonpad whitecolor">
+      <NavLink to="/register" className="li nonpad whitecolor">
         create free account
       </NavLink>
     </ul>

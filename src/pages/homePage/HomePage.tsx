@@ -1,5 +1,4 @@
 // jshint esversion:6
-// import { log } from "console";
 import BetterWay from "./Better/BetterWay";
 import "./HomePage.scss";
 import { Names } from "./List";
