@@ -1,0 +1,25 @@
+@media screen and (max-width:1000px) {
+}
+  
+  section.leftsection{
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+  .titleName{
+    color: rgb(73, 73, 78);
+    font-weight: 500;
+  }
+.ColContainer:hover{
+  cursor: pointer;
+  background-color: lightslategrey;
+  height: 50px;
+}

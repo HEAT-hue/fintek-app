@@ -3,6 +3,7 @@ import BetterWay from "./Better/BetterWay";
 import "./HomePage.scss";
 import { Names } from "./List";
 import "./DisplayGrid.scss";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -29,11 +30,15 @@ function HomePage() {
         <section className="GridCont">
           <div className="grid1">
             <h1>4 ways to build your savings</h1>
+
             <p>Earn 5%-15% when you save with any of these PiggyVest plans.</p>
-            <a href="#">
-              <button className="btn">Start Saving</button>
-            </a>
+            <li className="btn ssNav">
+              <Link to="/register" style={{ color: "white" }}>
+                Start Saving
+              </Link>
+            </li>
           </div>
+
           <div className="grid2">
             {Names.map((name) => {
               const { id } = name;
@@ -48,27 +53,29 @@ function HomePage() {
 }
 
 const NewList = (props: any) => {
-  const { id, img, title, description, link } = props.name;
+  const { img, title, description, link } = props.name;
   return (
     <>
       <div className="savingsCont">
-        <a href="#">
-          <div className="imageContainer">
-            <a href="#">
-              <img src={img} alt="" />
-            </a>
-          </div>
-          <div className="tittle">{title}</div>
-          <div className="description">{description}</div>
-          <div className="safecont">
-            <div className="arrowcont">
-              <div className="arr"></div>
+        <li>
+          <a href="#">
+            <div className="imageContainer">
+              <a href="#">
+                <img src={img} alt="" />
+              </a>
             </div>
-            <a className="hrefLink" href="#">
-              {link}
-            </a>
-          </div>
-        </a>
+            <div className="tittle">{title}</div>
+            <div className="description">{description}</div>
+            <div className="safecont">
+              <div className="arrowcont">
+                <div className="arr"></div>
+              </div>
+              <a className="hrefLink" href="#">
+                {link}
+              </a>
+            </div>
+          </a>
+        </li>
       </div>
     </>
   );

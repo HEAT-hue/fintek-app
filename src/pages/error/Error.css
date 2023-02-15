@@ -4,7 +4,7 @@ div.Error{
   flex-flow: column nowrap;
   display: flex;
 }
-div.Error h1, p{
+div.Error h1, .p{
   font-size: 3rem;
   color: white;
   text-align: center;
@@ -12,7 +12,7 @@ div.Error h1, p{
   font-weight: bold;
   text-transform: uppercase;
 }
-div.Error p {
+div.Error .p {
   font-size: 2rem;
   margin-top:20px;
 }

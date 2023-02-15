@@ -102,11 +102,6 @@ a{
   height: 30PX;
   border-radius: 100%;
 }
-.btn:hover {
-  transform: scale(1.06);
-  background-color: rgb(0, 153, 255);
-  cursor: pointer;
-}
 
 // ****** STYLING THE THE 4 WAYS TO BUILD LEFT SECTIONS *******
 .grid2{
@@ -133,28 +128,37 @@ a{
     font: 16.5px "DM Sans" sans-serif;
     color: #353535;
     width: 270px;
-    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 50px;
-    text-align: center;
+    text-align: start;
+    font-weight:500;
+    text-transform:none;
+    font-size: 0.99rem;
   }
-
-  button {
+  
+  .ssNav {
     background-color: #0c1825;
-    padding: 18px 26px;
-    font-weight: 600;
-    color: #fff !important;
+    font-weight: 700;
     text-align: center;
     white-space: nowrap;
     border-radius: 12px;
-    margin-left: 120px;
+    width: 130px;
+    padding: 16px;
+    margin: 0 auto;
     -webkit-transition: all .2s linear;
     -moz-transition: all .2s linear;
-    transition: all .2s linear;
-
+    transition: all .2s linear;  
+  }
+  .btn:hover {
+    transform: scale(1.02);
+    background-color: rgb(1, 100, 165);
+    cursor: pointer;
   }
 
 @media screen and (min-width: 1000px){
+  .grid2 {
+      grid-template-columns: 1fr !important;
+    }
   .savingsCont{
     flex-flow: row wrap !important;
   }
@@ -186,9 +190,3 @@ a{
   }
 }
 
-// ****** STYLING THE THE 4 WAYS TO BUILD LEFT SECTIONS *******
-@media screen and (max-width: 1000px) {
-  .grid2{
-      grid-template-columns: 1fr !important;
-  } 
-}
