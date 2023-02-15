@@ -1,5 +1,6 @@
 // jshint esversion:6
 import "./SignIn.scss";
+import { NavLink } from "react-router-dom";
 
 function SignIn() {
   return (
@@ -25,9 +26,12 @@ function SignIn() {
             </div>
 
             <div className="btn-wrapper">
-              <button type="submit" className="btn submitBtn">
+              <li className="btn submitBtn">
+                <NavLink to="/dashboard">LOG IN</NavLink>
+              </li>
+              {/* <button type="submit" className="btn submitBtn">
                 LOG IN
-              </button>
+              </button> */}
             </div>
           </div>
         </form>

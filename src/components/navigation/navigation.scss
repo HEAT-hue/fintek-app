@@ -1,25 +1,14 @@
-.navigationbar {
-  max-height: 70px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 20;
-
-  h1 {
-    font-size: 20px;
-  }
-}
+// styling the header of the navigation bar
 .navigationbar{
-    background-color: rgba(252, 248, 255, 0.96);
-    height: 110px;
-    max-height: 70px;
+    background-color: rgba(255, 255, 255, 0.96);
+    height: 100px;
+    max-height: 90px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 20;
-    // border-bottom: 1px solid #e1e1e1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     
     h1{
         font-size: 20px;

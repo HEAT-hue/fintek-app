@@ -1,18 +1,18 @@
 @media screen and (max-width:1000px) {
  
   .desktopNav{
-    display: none;
+  display: none;
 }
 .MobileNav {
   display: flex;
 }
 
 .Navlinks {
-  display: flex;
+    display: flex;
     flex-flow: column nowrap !important;
     align-items: center;
     position: fixed;
-    gap: 40px;
+    gap: 30px;
     top: 0;
     left: 0;
     right: 0;
@@ -23,21 +23,20 @@
 }
 /* styling the sign in navlinks */
 .seven {
-  padding: 15px 130px;
+  padding: 12px 130px;
   transition: all 0.1s linear;
 }
 .sevent, .nonpad{
   margin-left: 20px;
-  /* transition: all 0.2s linear; */
+  transition: all 0.2s linear;
 }
 
 /* styling the create acount navlinks */
 .nonpad{
-  margin-top: 20px;
-  margin-left: 40px;
+  margin-top: 10px;
 }
 .whitecolor {
-  padding: 20px 90px;
+  padding: 15px 90px;
   border-radius: 15px;
   transition: all 0.4s linear;
 }
