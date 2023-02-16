@@ -3,4 +3,4 @@ export { AuthPage } from "./authPage";
 export { InvestPage } from './investPage';
 export { SavingsPage } from './savingsPage';
 export { Error } from './error';
-export {DashBoard } from './dashbpord';
+export { DashboardPage } from "./dashboardPage";

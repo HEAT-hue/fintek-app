@@ -2,7 +2,8 @@
   background-color: #ffffff;
   border-radius: 20px;
   border-bottom-left-radius: 0;
-  width: max-content;
+  width: 100%;
+  max-width: 450px;
   padding: 40px;
   margin: auto;
 
@@ -35,7 +36,7 @@
           outline: none;
           border: 1px solid #edf2f7;
           border-radius: 5px;
-          width: 370px;
+          width: 100%;
           padding: 13px;
           margin: 10px 0;
           background-color: #edf2f7;

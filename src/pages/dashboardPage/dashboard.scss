@@ -1,0 +1,47 @@
+// Variables
+$md: 1024px;
+
+.dash-container {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+}
+
+.dash-aside {
+  height: 100vh;
+  width: 300px;
+  background-color: red;
+}
+
+.dash-main {
+  background-color: blueviolet;
+  position: relative;
+
+  .nav-footer {
+    padding-block: 10px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.534);
+
+    .footer-link {
+      color: grey;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .footer-link.active {
+      color: #083e9e;
+    }
+  }
+}

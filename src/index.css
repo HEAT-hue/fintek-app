@@ -69,3 +69,15 @@ li {
 .text-center {
   text-align: center;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.w-auto {
+  width: max-content;
+}
