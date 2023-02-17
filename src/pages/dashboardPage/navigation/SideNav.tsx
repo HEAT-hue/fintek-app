@@ -8,6 +8,7 @@ function SideNav() {
     // State to keep track of navigation view status
     const [navOpen, setNavOpen] = useState<boolean>(false);
 
+    // Toggle navigation bar
     function handleNavClick() {
         setNavOpen((prev) => !prev);
     }
