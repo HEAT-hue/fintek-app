@@ -1,16 +1,14 @@
 // jshint esversion:6
 import "./dashboard.scss";
 import { Outlet } from "react-router-dom";
-import { FooterNav } from "./FooterNav";
+import { FooterNav, SideNav } from "./navigation";
 
 function DashboardPage() {
   return (
     <div className="dash-container">
-      
+
       {/* Desktop side navigation */}
-      <div className="dash-aside">
-        <h1>Desktop Side nav</h1>
-      </div>
+      <SideNav />
 
       {/* Main Page */}
       <div className="dash-main">

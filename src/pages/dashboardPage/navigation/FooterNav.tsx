@@ -1,5 +1,6 @@
 // jshint esversion:6
 import { NavLink } from "react-router-dom"
+import "./footerNav.scss"
 
 function FooterNav() {
     return (<div className="nav-footer">
