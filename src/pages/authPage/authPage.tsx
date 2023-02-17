@@ -20,16 +20,16 @@ function AuthPage() {
                 {location.pathname === "/login" ? (<SignIn />) : (<Register />)}
 
                 {/* Render page footnote based on URL pathname */}
-                {location.pathname === "/login" && (<p className="text-xl">
-                    <Link to={"/register"}>Don't have an account? Register</Link>
+                {location.pathname === "/login" && (<p className="text-sm">
+                    <Link to={"/register"} className="text-white">Don't have an account? Register</Link>
                 </p>)}
 
-                {location.pathname === "/login" && (<p className="text-xl">
-                    <Link to={"/register"}>Forgot Password?</Link>
+                {location.pathname === "/login" && (<p className="text-sm">
+                    <Link to={"/register"} className="text-white">Forgot Password?</Link>
                 </p>)}
 
                 {location.pathname === "/register" && (<p className="text-xl">
-                    <Link to={"/login"}>Already have an account? Log In</Link>
+                    <Link to={"/login"} className="text-white">Already have an account? Log In</Link>
                 </p>)}
             </div>
         </>

@@ -18,7 +18,7 @@ function Register() {
         <form action="GET" className="authForm">
           <div className="form-header">
             <h2 className="form-title">Create a Secure Account</h2>
-            <h3 className="form-subtitle text-small">
+            <h3 className="form-subtitle text-sm">
               Welcome to the future of Savings & Investments
             </h3>
           </div>

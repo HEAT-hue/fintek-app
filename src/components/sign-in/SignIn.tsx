@@ -9,7 +9,7 @@ function SignIn() {
         <form action="GET" className="authForm">
           <div className="form-header">
             <h2 className="form-title">Login to your account</h2>
-            <h3 className="form-subtitle text-small">
+            <h3 className="form-subtitle text-sm">
               Securely login to your finteK
             </h3>
           </div>

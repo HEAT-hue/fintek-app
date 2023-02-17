@@ -1,0 +1,60 @@
+.dash-home {
+  .about-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .avatar {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .user-account-details {
+    margin-top: 30px;
+
+    .refresh {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .refresh-icon {
+        svg {
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+        }
+      }
+
+      .save_btn {
+        cursor: pointer;
+        background-color: #0d60d8;
+        border: 1px solid #0d60d8;
+        text-align: center;
+        color: #fff;
+        padding: 7px;
+        border-radius: 7px;
+        border-bottom-left-radius: 0;
+
+        &:hover {
+          background-color: #083e9e;
+        }
+      }
+    }
+
+    .account-variety {
+      margin-top: 20px;  
+      height: 140px;
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 20px;
+      overflow: scroll;
+
+      & > * {
+        flex-shrink: 0;
+        flex-grow: 0;
+        flex-basis: 250px;
+      }
+    }
+  }
+}
