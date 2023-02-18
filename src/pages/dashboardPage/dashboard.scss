@@ -2,13 +2,17 @@
 $md: 768px;
 
 .dash-container {
+  .dash-side {
+    height: 100vh;
+  }
+
   .dash-main {
     background-color: #ffffff;
-    // height: 100vh;
+    height: 100vh;
     width: 100%;
     padding: 40px;
-    overflow: hidden;
-    // position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   @media screen and (min-width: $md) {

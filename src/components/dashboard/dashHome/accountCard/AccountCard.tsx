@@ -1,6 +1,6 @@
 // jshint esversion:6
 import './account-card.scss';
-import { BsShield } from "react-icons/bs";
+import { Shield } from 'react-feather';
 
 interface AccountCardProp {
     title: string,
@@ -11,7 +11,7 @@ function AccountCard({ title, amount }: AccountCardProp) {
     return (
         <a href='#' className="account-card">
             <div className="icon-container">
-                <BsShield size={25} fontWeight={50} />
+                <Shield size={30} />
             </div>
             <div className="content flex flex-col gap-y-2">
                 <p className="title">{title}</p>

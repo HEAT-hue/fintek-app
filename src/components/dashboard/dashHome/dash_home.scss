@@ -43,7 +43,7 @@
     }
 
     .account-variety {
-      margin-top: 20px;  
+      margin-top: 20px;
       height: 140px;
       display: flex;
       flex-wrap: nowrap;
@@ -54,6 +54,40 @@
         flex-shrink: 0;
         flex-grow: 0;
         flex-basis: 250px;
+      }
+    }
+  }
+
+  section.user-cta {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+
+    .todo-wrapper {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+    }
+
+    .round-icon {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #0d60d8;
+      border-radius: 100%;
+    }
+
+    .todo-link {
+      border: 1px solid rgb(207, 219, 224);
+      border-radius: 5px;
+      border-bottom-left-radius: 0;
+    }
+
+    .user-setup {
+      .setup-container {
+        margin-top: 10px;
       }
     }
   }

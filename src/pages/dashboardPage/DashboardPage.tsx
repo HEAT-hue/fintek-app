@@ -8,7 +8,9 @@ function DashboardPage() {
     <div className="dash-container">
 
       {/* Desktop side navigation */}
-      <SideNav />
+      <div className="dash-side">
+        <SideNav />
+      </div>
 
       {/* Main Page */}
       <div className="dash-main">

@@ -114,6 +114,10 @@ img {
   flex-wrap: nowrap;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .w-auto {
   width: max-content;
 }
@@ -126,6 +130,49 @@ img {
   color: grey;
 }
 
+.gap-y-1 {
+  row-gap: 0.25rem;
+}
 .gap-y-2 {
   row-gap: 0.5rem;
+}
+.gap-x-2 {
+  column-gap: 0.5rem;
+}
+.gap-2\.5 {
+  gap: 0.625rem; /* 10px */
+}
+.gap-x-2\.5 {
+  column-gap: 0.625rem; /* 10px */
+}
+.gap-y-2\.5 {
+  row-gap: 0.625rem; /* 10px */
+}
+.gap-x-3 {
+  column-gap: 0.75rem;
+}
+.gap-y-3 {
+  row-gap: 0.75rem;
+}
+.gap-y-5 {
+  row-gap: 1.25rem; /* 20px */
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.p-4 {
+  padding: 1rem; /* 16px */
+}
+.py-4 {
+  padding-top: 1rem; /* 16px */
+  padding-bottom: 1rem; /* 16px */
+}
+.px-4 {
+  padding-left: 1rem; /* 16px */
+  padding-right: 1rem; /* 16px */
+}
+.px-3 {
+  padding-left: 0.75rem; /* 16px */
+  padding-right: 0.75rem; /* 16px */
 }
