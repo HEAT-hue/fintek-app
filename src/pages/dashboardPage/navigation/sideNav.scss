@@ -1,59 +1,3 @@
-<<<<<<< HEAD
-// Variables
-$md: 768px;
-
-.dash-aside {
-  display: none;
-  height: 100%;
-  width: max-content;
-  padding: 40px 20px;
-  background-color: #062863;
-  color: #ffffff;
-  outline: 1px solid red;
-
-  .hamburger-menu,
-  .nav-link {
-    cursor: pointer;
-    color: #fff;
-    svg {
-      width: 23px;
-      height: 23px;
-    }
-  }
-
-  .nav-container {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-
-  .nav-link {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-
-    .nav-content {
-      padding-right: 50px;
-      font-size: 1.1rem;
-      color: #fff;
-    }
-  }
-
-  .nav-link.active {
-    background-color: unset;
-    // transform: translateX(20px);
-  }
-
-  .nav-link.active.open {
-    background-color: unset;
-  }
-
-  @media screen and (min-width: $md) {
-    display: grid;
-    grid-template-rows: minmax(0, 1fr) minmax(0, 5fr) minmax(0, 1fr);
-  }
-}
-=======
 // Variables
 $md: 768px;
 
@@ -64,7 +8,7 @@ $md: 768px;
   padding: 40px 20px;
   background-color: #062863;
   color: #ffffff;
-  outline: 1px solid red;
+  overflow-y: scroll;
 
   .hamburger-menu,
   .nav-link {
@@ -108,4 +52,3 @@ $md: 768px;
     grid-template-rows: minmax(0, 1fr) minmax(0, 5fr) minmax(0, 1fr);
   }
 }
->>>>>>> 6aca11f1c6fa8b8296f529f98e3ade2d4136bd4c

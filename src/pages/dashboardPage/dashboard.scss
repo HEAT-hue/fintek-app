@@ -1,17 +1,13 @@
-<<<<<<< HEAD
 // Variables
 $md: 768px;
 
 .dash-container {
-  .dash-side {
-    height: 100vh;
-  }
-
   .dash-main {
     background-color: #ffffff;
     height: 100vh;
     width: 100%;
     padding: 40px;
+    padding-bottom: 100px;
     overflow-x: hidden;
     overflow-y: scroll;
   }
@@ -21,23 +17,3 @@ $md: 768px;
     grid-template-columns: max-content 1fr;
   }
 }
-=======
-// Variables
-$md: 768px;
-
-.dash-container {
-  .dash-main {
-    background-color: #ffffff;
-    // height: 100vh;
-    width: 100%;
-    padding: 40px;
-    overflow: hidden;
-    // position: relative;
-  }
-
-  @media screen and (min-width: $md) {
-    display: grid;
-    grid-template-columns: max-content 1fr;
-  }
-}
->>>>>>> 6aca11f1c6fa8b8296f529f98e3ade2d4136bd4c

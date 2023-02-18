@@ -1,0 +1,9 @@
+<div className="user-setup">
+                    <p className="uppercase text-sm text-grey">Complete your setup</p>
+                    <div className="setup-container">
+                        <div className="setup-img-wrapper">
+                            <img src={setUpImg} alt="Set up" />
+                        </div>
+                        <p className="uppercase mt-7">#Welcome to finteK</p>
+                    </div>
+                </div>

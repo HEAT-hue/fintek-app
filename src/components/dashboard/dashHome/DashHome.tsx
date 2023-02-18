@@ -67,10 +67,19 @@ function DashHome() {
                 </div>
             </section>
 
-            <section className="user-cta">
-                <div className="user-todo">
-                    <p className="uppercase text-sm text-grey">To-do List</p>
+            <section className="user-cta mt-7">
 
+                <div className="user-setup md:hidden">
+                    <p className="uppercase text-sm text-grey">Complete your setup</p>
+                    <div className="setup-container">
+                        <div className="setup-img-wrapper">
+                            <img src={setUpImg} alt="Set up" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="user-todo mt-7">
+                    <p className="uppercase text-sm text-grey">To-do List</p>
                     <div className="todo-wrapper">
                         <Link to={""} className="todo-link flex items-center gap-x-3 p-4">
                             <span className="round-icon"></span>
@@ -102,7 +111,6 @@ function DashHome() {
                             <span className="text-xs">Refer your friend and earn #1000 bonus</span>
                         </Link>
                     </div>
-
                     <div className="extra-todo-wrapper mt-7 flex flex-col gap-y-5">
                         <Link to={""} className="todo-link flex items-center gap-x-3 p-4">
                             <span><BiLike size={25} color="blue" /></span>
@@ -114,13 +122,17 @@ function DashHome() {
                         <Link to={""} className="todo-link flex items-center gap-x-3 p-4">
                             <span><BiLockAlt size={25} color="rgb(34, 149, 242)" /></span>
                             <span className="flex flex-col gap-y-1">
-                                <span className="text-blue text-sm font-bold" style={{ color: 'rgb(34, 149, 242)'}}>Create a safe lock</span>
+                                <span className="text-blue text-sm font-bold" style={{ color: 'rgb(34, 149, 242)' }}>Create a safe lock</span>
                                 <span className="text-xs">Avoid spending temptations. Tap to create a safe lock</span>
                             </span>
                         </Link>
                     </div>
                 </div>
-                <div className="user-setup">
+
+
+                <p className="uppercase mt-7 md:hidden">#Welcome to finteK</p>
+
+                <div className="user-setup mt-7 md:visible">
                     <p className="uppercase text-sm text-grey">Complete your setup</p>
                     <div className="setup-container">
                         <div className="setup-img-wrapper">

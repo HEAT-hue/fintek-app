@@ -176,3 +176,5 @@ img {
   padding-left: 0.75rem; /* 16px */
   padding-right: 0.75rem; /* 16px */
 }
+
+.hidden	{display: none;}
