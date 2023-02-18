@@ -55,7 +55,7 @@ $md: 768px;
       display: flex;
       flex-wrap: nowrap;
       gap: 20px;
-      overflow: scroll;
+      overflow-x: auto;
 
       & > * {
         flex-shrink: 0;
@@ -97,7 +97,7 @@ $md: 768px;
 
     @media screen and (min-width: $md) {
       display: grid;
-      grid-template-columns: 2fr 1fr;
+      grid-template-columns: 4fr 2fr;
       column-gap: 30px;
     }
   }
