@@ -1,6 +1,6 @@
 // styling the header of the navigation bar
 .navigationbar{
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgb(255, 255, 255);
     height: 100px;
     max-height: 90px;
     position: fixed;
@@ -8,7 +8,8 @@
     left: 0;
     right: 0;
     z-index: 20;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+    // border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+    box-shadow: 2px 2px  2px rgba(0, 0, 0, 0.1);
     
     h1{
         font-size: 20px;

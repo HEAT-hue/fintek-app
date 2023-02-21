@@ -1,0 +1,19 @@
+.StartSavingToday{
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+    #{&}__links{
+      background: #7913e5;
+      font-size: 16.5px;
+      font-weight: 600;
+      color: #fff !important;
+      text-align: center;
+      white-space: nowrap;
+      padding: 16px 22px;
+      border-radius: 12px;
+    }
+  
+}
